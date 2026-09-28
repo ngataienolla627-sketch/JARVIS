@@ -1,9 +1,7 @@
 name: JARVIS Build
-on:
-workflow_dispatch:
+on: [workflow_dispatch]
 jobs:
-test:
-runs-on: ubuntu-latest
-steps:
-- name: Test
-run: echo "JARVIS BUILD SYSTEM ONLINE"
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "JARVIS BUILD SYSTEM ONLINE"
