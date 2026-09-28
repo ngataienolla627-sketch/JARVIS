@@ -1,4 +1,4 @@
-name: JARVIS Build
+concurrency: name: JARVIS Build
 
 on: [workflow_dispatch]
 
@@ -8,5 +8,3 @@ runs-on: ubuntu-latest
 steps:
 - name: Test
 run: echo "JARVIS BUILD SYSTEM ONLINE"
-defaults:
-  
