@@ -1,6 +1,6 @@
-concurrency: name: JARVIS Build
-
-on: [workflow_dispatch]
+name: JARVIS Build
+on:
+workflow_dispatch:
 
 jobs:
 test:
